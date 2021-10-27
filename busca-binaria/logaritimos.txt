@@ -1,0 +1,21 @@
+Logaritimos
+
+Para cada lista de n itens, a busca binaria levará log2 n passos 
+até achar o resultado no pior dos casos, enquanto a busca simples
+levará n passos.
+
+ex:
+    log10 100 é como perguntar "quantas vezes preciso multiplicar 10 por ele
+    mesmo para obter 100?"
+
+    A resposta é 2, porque 10 x 10 = 100, então log10 100 = 2
+
+    logs são o inverso de exponenciação.
+
+
+"log" sempre significa log2
+Para uma lista de 8 elementos: log 8
+    log 8 = 3
+    porque 2³ == 8
+    então para uma lista de 8 números, precisamos checar
+    no máximo 3 números.
